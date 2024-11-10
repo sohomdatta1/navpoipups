@@ -1,0 +1,14 @@
+{
+  "name": "popups",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "author": "Lupin",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "vite": "^5.4.10"
+  }
+}
