@@ -1,0 +1,54 @@
+{
+	"extends": [
+		"wikimedia/client/es6",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"globals": {
+		"mw": "readonly",
+		"pg": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"rules": {
+		"camelcase": "off",
+		"no-undef": "off",
+		"es-x/no-array-prototype-includes": "off",
+		"es-x/no-async-functions": "off",
+		"es-x/no-class-fields": "off",
+		"es-x/no-optional-catch-binding": "off",
+		"es-x/no-regexp-lookbehind-assertions": "off",
+		"es-x/no-regexp-s-flag": "off",
+		"es-x/no-rest-spread-properties": "off",
+		"es-x/no-string-prototype-matchall": "off",
+		"es-x/no-string-prototype-replaceall": "off",
+		"jsdoc/require-param": "off",
+		"jsdoc/require-param-type": "off",
+		"jsdoc/require-returns": "off",
+		"max-len": "off",
+		"no-unused-vars": "off",
+		"mediawiki/class-doc": "off",
+		"no-jquery/no-class-state": "off",
+		"no-jquery/no-global-selector": "off",
+		"no-jquery/no-parse-html-literal": "off",
+		"no-jquery/variable-pattern": "off",
+		"no-shadow": "off",
+		"no-underscore-dangle": "off",
+		"security/detect-non-literal-regexp": "off",
+		"security/detect-unsafe-regex": "off",
+		"unicorn/prefer-string-slice": "off",
+		"space-in-parens": "off",
+		"computed-property-spacing": "off",
+		"eqeqeq": "off",
+		"no-var": "off",
+		"spaced-comment": "off",
+		"array-bracket-spacing": "off",
+		"jsdoc/no-multi-asterisks": "off",
+		"no-alert": "off",
+		"no-tabs": "off",
+		"jsdoc/require-asterisk-prefix": "off",
+		"jsdoc/check-alignment": "off"
+	}
+}
